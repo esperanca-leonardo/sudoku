@@ -23,21 +23,31 @@ Sudoku Solver is a Java-based console application that efficiently solves Sudoku
 - **Customizable Puzzles:** Easily modify the Sudoku board within the code to solve different puzzles.
 
 ## 💡 How It Works
-- Board Initialization:
+- **Board Initialization:**
     - The application initializes a 9x9 Sudoku board with predefined values. Empty cells are represented by 0.
-- Backtracking Algorithm:
+- **Backtracking Algorithm:**
     - The solver scans the board to find empty cells.
     - For each empty cell, it tries numbers from 1 to 9.
     - It checks if placing a number violates Sudoku rules (no duplicates in the current row, column, or 3x3 subgrid).
     - If a valid number is found, it places the number and recursively attempts to solve the rest of the board.
     - If no valid number is found, it backtracks to the previous cell and tries the next number.
-- Solution Output:
+- **Solution Output:**
     - Once the board is successfully solved, the application prints the solved Sudoku board to the console.
     - If the board is unsolvable, it notifies the user accordingly.
 
+## 🔧 Tools and Technologies Used
+- **Java:** A versatile and widely-used programming language, ideal for building robust applications.
+- **IDE (Optional):** Integrated Development Environment for writing and debugging Java code.
+- **Git:** Version control system for tracking changes and collaborating on the project.
 
+## 📋 Prerequisites
+Before running the application, ensure you have the following prerequisites installed:
+- **Java Development Kit (JDK) 8 or higher:** Required to compile and run Java applications.
+- **Git:** (Optional) For cloning the repository.
 
-
-
-
+## 📝 Installation Instructions
+1. Clone this repository
+```bash
+git clone https://github.com/esperanca-leonardo/sudoku.git
+```
 
