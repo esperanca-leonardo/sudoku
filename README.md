@@ -3,18 +3,17 @@ Sudoku Solver is a Java-based console application that efficiently solves Sudoku
 
 ## 📑 Table of Contents
 
-- [Key Features]
+- [Key Features](#-key-features)
 - [Demonstration Video]
-- [How It Works]
-- [Tools and Technologies Used]
-- [Prerequisites]
-- [Installation Instructions]
-    - [Clone this repository]
-    - [Navigate to the project directory]
-    - [Compile the project]
-    - [Run the application]
-- [Observations]
-- [License]
+- [How It Works](#-how-it-works)
+- [Tools and Technologies Used](#-tools-and-technologies-used)
+- [Prerequisites](#-prerequisites)
+- [Installation Instructions](#-installation-instructions)
+    - [Clone this repository](#1-clone-this-repository)
+    - [Navigate to the project directory](#2-navigate-to-the-project-directory)
+    - [Compile the project](#3-compile-the-project)
+    - [Run the application](#4-run-the-application)
+- [Observations](#-observations)
 
 ## 🚀 Key Features
 - **Efficient Solving:** Utilizes a backtracking algorithm to solve Sudoku puzzles quickly and accurately.
@@ -46,8 +45,48 @@ Before running the application, ensure you have the following prerequisites inst
 - **Git:** (Optional) For cloning the repository.
 
 ## 📝 Installation Instructions
-1. Clone this repository
+### 1. Clone this repository
 ```bash
 git clone https://github.com/esperanca-leonardo/sudoku.git
 ```
+### 2. Navigate to the project directory
+```bash
+cd toolbox-backend
+```
+
+### 3. Compile the project
+Ensure you have the JDK installed. Open your terminal or command prompt and run:
+```bash
+javac App.java
+```
+This command compiles the App.java file and generates the App.class bytecode file.
+
+### 4. Run the application
+After successful compilation, run the application using:
+```bash
+java App
+```
+The application will attempt to solve the predefined Sudoku puzzle and display the result in the console.
+
+## 📌 Observations
+- **Custom Puzzles:** To solve a different Sudoku puzzle, modify the board array in the App class. Replace the 0s with the known numbers of your puzzle.
+- **Unsolvable Puzzles:** If the application prints "Unsolved board :(", it means the provided Sudoku puzzle does not have a valid solution.
+- **Extensibility:** While currently a console application, the solver can be extended with a graphical user interface (GUI) or integrated into larger applications as needed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
