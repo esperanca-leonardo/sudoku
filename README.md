@@ -23,17 +23,17 @@ Sudoku Solver is a Java-based console application that efficiently solves Sudoku
 - **Customizable Puzzles:** Easily modify the Sudoku board within the code to solve different puzzles.
 
 ## 💡 How It Works
-Board Initialization:
-    The application initializes a 9x9 Sudoku board with predefined values. Empty cells are represented by 0.
-Backtracking Algorithm:
-    The solver scans the board to find empty cells.
-    For each empty cell, it tries numbers from 1 to 9.
-    It checks if placing a number violates Sudoku rules (no duplicates in the current row, column, or 3x3 subgrid).
-    If a valid number is found, it places the number and recursively attempts to solve the rest of the board.
-    If no valid number is found, it backtracks to the previous cell and tries the next number.
-Solution Output:
-    Once the board is successfully solved, the application prints the solved Sudoku board to the console.
-    If the board is unsolvable, it notifies the user accordingly.
+- Board Initialization:
+    - The application initializes a 9x9 Sudoku board with predefined values. Empty cells are represented by 0.
+- Backtracking Algorithm:
+    - The solver scans the board to find empty cells.
+    - For each empty cell, it tries numbers from 1 to 9.
+    - It checks if placing a number violates Sudoku rules (no duplicates in the current row, column, or 3x3 subgrid).
+    - If a valid number is found, it places the number and recursively attempts to solve the rest of the board.
+    - If no valid number is found, it backtracks to the previous cell and tries the next number.
+- Solution Output:
+    - Once the board is successfully solved, the application prints the solved Sudoku board to the console.
+    - If the board is unsolvable, it notifies the user accordingly.
 
 
 
