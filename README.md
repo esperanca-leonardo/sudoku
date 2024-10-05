@@ -4,7 +4,7 @@ Sudoku Solver is a Java-based console application that efficiently solves Sudoku
 ## 📑 Table of Contents
 
 - [Key Features](#-key-features)
-- [Demonstration Video]
+- [Demonstration Video]()
 - [How It Works](#-how-it-works)
 - [Tools and Technologies Used](#-tools-and-technologies-used)
 - [Prerequisites](#-prerequisites)
@@ -20,6 +20,8 @@ Sudoku Solver is a Java-based console application that efficiently solves Sudoku
 - **Console-Based Interface:** Simple and straightforward console output for easy use without the need for a graphical interface.
 - **Easy to Use:** Minimal setup required—just compile and run to solve any 9x9 Sudoku puzzle.
 - **Customizable Puzzles:** Easily modify the Sudoku board within the code to solve different puzzles.
+
+## 📹 Demonstration Video
 
 ## 💡 How It Works
 - **Board Initialization:**
